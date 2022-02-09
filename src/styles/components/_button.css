@@ -1,8 +1,25 @@
-.button{
+.button {
   margin: var(--space-large);
   padding: var(--space-medium) var(--space-x-large);
+  letter-spacing: var(--space-xxx-small);
   border-radius: var(--space-large);
+}
 
-  border: var(--space-xx-small) solid grey;
+.button--contact:disabled{
+  border: var(--space-xx-small) solid var(--yellow-soft);
+  background-color: var(--yellow-soft);
+  opacity: 0.5;
+}
 
+.button--contact {
+  border: var(--space-xx-small) solid var(--yellow-soft);
+}
+
+.button--contact:hover {
+  background-color: var(--yellow-soft);
+}
+
+.button--contact:active {
+  border: var(--space-xx-small) solid var(--yellow-dark);
+  background-color: var(--yellow-dark);
 }
