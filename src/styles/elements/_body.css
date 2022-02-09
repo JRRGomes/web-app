@@ -1,5 +1,8 @@
 
-body{
+body {
+  padding: 0;
   font-family: var(--main-font);
+  font-size: var(--space-unit);
   background-color: var(--main-bg);
+  color: var(--blue-dark);
 }
