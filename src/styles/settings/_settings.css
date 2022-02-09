@@ -1,0 +1,13 @@
+:root {
+  --main-font: 'Montserrat', sans-serif;
+
+  --space-unit: 1em;
+
+  --main-bg: #ecedf3;
+  --yellow-soft: #ffe21d;
+  --yellow-dark: #ffd21d;
+  --blue-soft: #24afff;
+  --blue-dark: #248bff;
+  --salmon: #f26c6c;
+  --green: #27b667;
+}
