@@ -1,0 +1,8 @@
+.button{
+  margin: var(--space-large);
+  padding: var(--space-medium) var(--space-x-large);
+  border-radius: var(--space-large);
+
+  border: var(--space-xx-small) solid grey;
+
+}

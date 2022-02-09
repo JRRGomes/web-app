@@ -1,0 +1,37 @@
+[1mdiff --git a/src/design-system.html b/src/design-system.html[m
+[1mindex 0379a1b..a8898eb 100644[m
+[1m--- a/src/design-system.html[m
+[1m+++ b/src/design-system.html[m
+[36m@@ -14,7 +14,7 @@[m
+     <h1>Design System</h1>[m
+     <a href="/src/index.html">index</a>[m
+     <div>[m
+[31m-      <button>first button</button>[m
+[32m+[m[32m      <button class="button">FIRST BUTTON</button>[m
+     </div>[m
+   </body>[m
+ </html>[m
+[1mdiff --git a/src/styles/index.css b/src/styles/index.css[m
+[1mindex 541c416..2dd15c6 100644[m
+[1m--- a/src/styles/index.css[m
+[1m+++ b/src/styles/index.css[m
+[36m@@ -5,4 +5,5 @@[m
+ @import 'settings/_space.css';[m
+ @import 'elements/_body.css';[m
+ @import 'elements/_h1.css';[m
+[32m+[m[32m@import 'components/_button.css';[m
+ [m
+[1mdiff --git a/src/styles/settings/_space.css b/src/styles/settings/_space.css[m
+[1mindex 506312e..ebb8dfe 100644[m
+[1m--- a/src/styles/settings/_space.css[m
+[1m+++ b/src/styles/settings/_space.css[m
+[36m@@ -1,3 +1,9 @@[m
+ :root {[m
+   --space-unit: 1em;[m
+[32m+[m[32m  --space-xx-small: calc(0.25*var(--space-unit));[m
+[32m+[m[32m  --space-x-small: calc(0.5*var(--space-unit));[m
+[32m+[m[32m  --space-small: calc(0.75*var(--space-unit));[m
+[32m+[m[32m  --space-medium: calc(1.25*var(--space-unit));[m
+[32m+[m[32m  --space-large: calc(2*var(--space-unit));[m
+[32m+[m[32m  --space-x-large: calc(3*var(--space-unit));[m
+ }[m
