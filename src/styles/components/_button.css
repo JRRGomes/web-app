@@ -3,16 +3,12 @@
   padding: var(--space-medium) var(--space-x-large);
   letter-spacing: var(--space-xxx-small);
   border-radius: var(--space-large);
+  border: var(--space-xx-small) solid var(--main-bg);
 }
 
-.button--contact:disabled{
-  border: var(--space-xx-small) solid var(--yellow-soft);
-  background-color: var(--yellow-soft);
-  opacity: 0.5;
-}
 
 .button--contact {
-  border: var(--space-xx-small) solid var(--yellow-soft);
+  border-color: var(--yellow-soft);
 }
 
 .button--contact:hover {
@@ -20,6 +16,35 @@
 }
 
 .button--contact:active {
-  border: var(--space-xx-small) solid var(--yellow-dark);
   background-color: var(--yellow-dark);
+  border-color: var(--yellow-dark);
 }
+
+.button--contact:disabled {
+  background-color: var(--yellow-soft);
+  border-color: var(--yellow-soft);
+  opacity: 0.5;
+}
+
+.button--form {
+  border-color: var(--blue-soft);
+}
+
+.button--form:hover {
+  background-color: var(--blue-soft);
+  color: var(--main-bg);
+}
+
+.button--form:active {
+  background-color: var(--blue-dark);
+  border-color: var(--blue-dark);
+}
+
+.button--form:disabled {
+  background-color: var(--blue-soft);
+  border-color: var(--blue-soft);
+  color: var(--main-bg);
+  opacity: 0.5;
+}
+
+
