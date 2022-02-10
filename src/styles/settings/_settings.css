@@ -2,7 +2,7 @@
   --main-font: 'Montserrat', sans-serif;
 
   --space-unit: 1em;
-  --space-xxx-small: calc(0.10*var(--space-unit));
+  --space-xxx-small: calc(0.15*var(--space-unit));
   --space-xx-small: calc(0.25*var(--space-unit));
   --space-x-small: calc(0.5*var(--space-unit));
   --space-small: calc(0.75*var(--space-unit));
@@ -16,5 +16,7 @@
   --blue-soft: #24afff;
   --blue-dark: #248bff;
   --salmon: #f26c6c;
+  --salmon-soft: #f26c6c25;
   --green: #27b667;
+  --green-soft: #27b66725;
 }

@@ -2,6 +2,6 @@
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
 @import 'elements/_body.css';
-@import 'elements/_h1.css';
 @import 'components/_button.css';
+@import 'components/_input.css'
 
