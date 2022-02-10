@@ -8,12 +8,24 @@
   border-color: var(--blue-dark);
 }
 
-.input__email:focus:invalid {
+.input--required:focus:invalid {
   border-color: var(--main-bg);
   background-color: var(--salmon-soft);
 }
 
-.input__email:focus:valid {
+.input--required:focus:valid {
   border-color: var(--main-bg);
   background-color: var(--green-soft);
+}
+
+.input--val {
+  background-color: var(--green-soft);
+}
+
+.input--inval {
+  background-color: var(--salmon-soft);
+}
+
+.input--warn {
+  background-color: var(--yellow-softer);
 }
