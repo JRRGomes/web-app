@@ -1,0 +1,31 @@
+.input {
+  padding: var(--space-small);
+  border: var(--space-xxx-small) solid var(--main-bg);
+  border-radius: var(--space-large);
+}
+
+.input:focus {
+  border-color: var(--blue-dark);
+}
+
+.input--required:focus:invalid {
+  border-color: var(--main-bg);
+  background-color: var(--salmon-soft);
+}
+
+.input--required:focus:valid {
+  border-color: var(--main-bg);
+  background-color: var(--green-soft);
+}
+
+.input--val {
+  background-color: var(--green-soft);
+}
+
+.input--inval {
+  background-color: var(--salmon-soft);
+}
+
+.input--warn {
+  background-color: var(--yellow-softer);
+}
