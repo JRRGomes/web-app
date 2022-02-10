@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-medium) var(--space-x-large);
+}
+
+.header__logo {
+  height: var(--space-x-large);
+  width: var(--space-xx-large);
+}
+
+.header__menu {
+  display: flex;
+}
