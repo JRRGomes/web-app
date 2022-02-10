@@ -9,20 +9,20 @@
   text-transform: uppercase;
 }
 
-.button--contact {
+.button--apply {
   border-color: var(--yellow-soft);
 }
 
-.button--contact:hover {
+.button--apply:hover {
   background-color: var(--yellow-soft);
 }
 
-.button--contact:active {
+.button--apply:active {
   background-color: var(--yellow-dark);
   border-color: var(--yellow-dark);
 }
 
-.button--contact:disabled {
+.button--apply:disabled {
   background-color: var(--yellow-soft);
   border-color: var(--yellow-soft);
   opacity: 0.5;
