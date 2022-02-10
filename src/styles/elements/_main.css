@@ -1,0 +1,8 @@
+.main {
+  margin: var(--space-xxx-large) var(--space-xx-large);
+}
+
+.main__title {
+  text-transform: uppercase;
+  font-size: var(--space-xx-large);
+}
