@@ -1,9 +1,12 @@
 .button {
-  margin: var(--space-large);
-  padding: var(--space-medium) var(--space-x-large);
+  color: var(--main-font-color);
+  font-weight: 900;
+  font-size: var(--space-unit);
+  padding: var(--space-unit) var(--space-large);
   letter-spacing: var(--space-xxx-small);
   border-radius: var(--space-large);
   border: var(--space-xx-small) solid var(--main-bg);
+  text-transform: uppercase;
 }
 
 .button--contact {

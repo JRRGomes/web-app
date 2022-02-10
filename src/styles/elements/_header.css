@@ -2,14 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-medium) var(--space-x-large);
+  padding: var(--space-x-large) var(--space-xx-large);
+  font-weight: 900;
 }
 
 .header__logo {
   height: var(--space-x-large);
-  width: var(--space-xx-large);
+  width: var(--space-xxx-large);
 }
 
 .header__menu {
   display: flex;
+}
+
+.header__menu-item {
+  padding: 0 var(--space-medium);
+  text-transform: uppercase;
 }

@@ -9,9 +9,11 @@
   --space-medium: calc(1.25*var(--space-unit));
   --space-large: calc(2*var(--space-unit));
   --space-x-large: calc(3*var(--space-unit));
-  --space-xx-large: calc(13*var(--space-unit));
+  --space-xx-large: calc(5*var(--space-unit));
+  --space-xxx-large: calc(13*var(--space-unit));
 
   --main-bg: #ecedf3;
+  --main-font-color: #9c9da1;
   --yellow-soft: #ffe21d;
   --yellow-dark: #ffd21d;
   --yellow-softer: #ffd21d41;
