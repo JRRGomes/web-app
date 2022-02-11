@@ -9,13 +9,19 @@
   --space-medium: calc(1.25*var(--space-unit));
   --space-large: calc(2*var(--space-unit));
   --space-x-large: calc(3*var(--space-unit));
+  --space-xx-large: calc(5*var(--space-unit));
+  --space-xxx-large: calc(13*var(--space-unit));
+  --space-super-large: calc(20*var(--space-unit));
+
 
   --main-bg: #ecedf3;
+  --main-font-color: #404142;
   --yellow-soft: #ffe21d;
   --yellow-dark: #ffd21d;
   --yellow-softer: #ffd21d41;
   --blue-soft: #24afff;
   --blue-dark: #248bff;
+  --blue-dark-bg: #248aff6b;
   --salmon: #f26c6c;
   --salmon-soft: #f26c6c25;
   --green: #27b667;
